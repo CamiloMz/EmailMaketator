@@ -1,0 +1,27 @@
+<!-- S1 -->
+<mj-section padding="30px 10px 10px">
+    <mj-column width="492px" border="1px solid #48A0F8" css-class="rounded">
+        <mj-text padding="10px 20px 5px" font-family="Arial, Helvetica, sans-serif;" font-size="24px" line-height="31px" align="left" color="#48A0F8" font-weight="400">
+            B2
+        </mj-text>
+
+        <mj-text padding="5px 20px 15px" font-family="Arial, Helvetica, sans-serif;" font-size="16px" line-height="21px" align="left" color="#000000" font-weight="400">
+            ¡Muy bien! Entiendes textos y discursos complejos sobre temas familiares o abstractos. Comprendes a los hablantes nativos de inglés con muy poca dificultad y estás mejorando tus habilidades para discutir ideas complicadas, así como para comunicar claramente tus opiniones y convicciones.
+        </mj-text>
+    </mj-column>
+</mj-section>
+<!-- End S1 -->
+
+<!-- S2 -->
+<mj-section padding="10px">
+    <mj-column width="536px" padding="10px 0">
+        <mj-text padding="5px 10px" font-family="Arial, Helvetica, sans-serif;" font-size="16px" line-height="21px" align="left" color="#000000" font-weight="400">
+            Según tus respuestas, el nivel recomendado para que comiences tus estudios es <span style="color: #0078FF; font-weight: 700;">B2 - Intermedio-Alto.</span>
+        </mj-text>
+
+        <mj-text padding="5px 10px" font-family="Arial, Helvetica, sans-serif;" font-size="16px" line-height="21px" align="left" color="#000000" font-weight="400">
+            La prueba de nivel de inglés de Open English se basa en el MCER (Marco Común Europeo de Referencia) y es la mejor manera para que empieces tu curso en el punto de partida correcto.
+        </mj-text>
+    </mj-column>
+</mj-section>
+<!-- End S2 -->

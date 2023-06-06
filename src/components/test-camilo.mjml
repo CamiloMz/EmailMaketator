@@ -1,0 +1,192 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      .hidden {
+        display: none;
+        font-weight: bold;
+        padding: 15px 20px 0;
+        font-size: 16px;
+        text-align: center;
+      }
+
+
+      @media only screen and (max-width:480px) {
+        .hide {
+          max-height: none !important;
+          display: none !important;
+        }
+
+        .pright15 {
+          padding-right: 15px !important
+        }
+
+        .pleft15 {
+          padding-left: 15px !important
+        }
+
+        .list-center {
+          width: 100% !important;
+          text-align: center;
+        }
+
+        .quest {
+          font-size: 16px;
+        }
+      }
+
+      @media only screen and (min-width:481px) {
+        .hide2 {
+          max-height: none !important;
+          display: none !important;
+        }
+      }
+    </mj-style>
+
+    <mj-font name="Muli" href="https://fonts.googleapis.com/css?family=Muli:400,700,900&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Muli" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#f5f5f5">
+
+    <!--Header-->
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-text align="right" font-family="Helvetica,Arial,sans-serif" font-size="10px" line-height="12px" padding="15px 10px">
+          No puedes ver la imagen? <a href="%%view_email_url%%" style="text-decoration:underline;color:#000000" font-weight="bold">Mírala en tu navegador
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0" background-color="#FFFFFF">
+      <mj-column padding="0">
+        <mj-image padding="0" src="http://image.communications.openenglish.com/lib/fe9113727760037c72/m/3/e17893cb-137b-4397-b437-0414fa15478c.png" alt="Elemento decorativo divisor" width="600px" />
+      </mj-column>
+    </mj-section>
+    <!--End Header-->
+
+    <!--Logo-->
+    <mj-section padding="5px 0" background-color="#ffffff">
+      <mj-group>
+        <mj-column width="50%" vertical-align="middle" background-color="#ffffff">
+          <mj-image src="http://image.communications.openenglish.com/lib/fe9113727760037c72/m/3/1477d741-df4e-4f0f-be10-46c817258151.png" width="162px" alt="Logo Open English" href="https://www.openenglish.com/" target="_blank" align="left" />
+        </mj-column>
+        <mj-column width="50%" vertical-align="middle" background-color="#ffffff">
+          <mj-text font-family="Arial, Helvetica, sans-serif;" font-size="15px" line-height="28px" align="right" color="#000000" padding="10px 20px 10px 0">📞
+            <a href="%%=RedirectTo(@callURL)=%%" target="_blank" style="text-decoration: none; color: #0078FF;">%%=v(@phoneNumber)=%%</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!--Fin Logo-->
+
+    <!--Contenido-->
+
+    <!-- Sec1 -->
+    <mj-section padding="20px 0 0 0" background-color="#FFFFFF">
+        <mj-column padding="0px 20px">
+            <mj-text font-family="Arial, Helvetica, sans-serif;" line-height="41px" align="left" font-size="32px" color="#0078FF" padding="0px 10px 0px" font-weight="400">
+                ¡Name, gracias por hacer la prueba de nivel de inglés Open English! 
+            </mj-text>
+
+            <mj-text font-family="Arial, Helvetica, sans-serif;" line-height="31px" align="left" font-size="24px" color="#FF6600" padding="0px 10px 0px" font-weight="400">
+                Este es tu resultado:
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section padding="0px" background-color="#ffffff">
+      <mj-column width="500px" padding="20px 10px 40px">
+
+        <mj-text font-family="Arial, Helvetica, sans-serif;" line-height="24px" align="center" font-size="18px" color="#000" padding="0px 10px 0px" font-weight="400">
+        <span style="color:#FF7600; font-weight: 700;">¡Hola %%=ProperCase([first_name])=%%!</span> Debido a las Fiestas de Pascuas, no ofreceremos clases en vivo este <b>domingo 17 de abril.</b>     
+        </mj-text>
+
+        <mj-text font-family="Arial, Helvetica, sans-serif;" line-height="24px" align="center" font-size="18px" color="#000" padding="10px 10px 0px" font-weight="400">
+          <b>¡Pero no te preocupes!</b> Puedes acceder cuantas veces quieras al resto de la <a href="https://student.openenglish.com" target="_blank" style="color: #0078FF; font-weight: 700;">plataforma</a> y perfeccionar otras áreas de tu inglés.  
+        </mj-text>
+
+        <mj-text font-family="Arial, Helvetica, sans-serif;" line-height="24px" align="center" font-size="18px" color="#000" padding="10px 10px 0px" font-weight="400">
+          Gracias por entender. ¡Felices Pascuas!
+        </mj-text>
+
+        <mj-text font-family="Arial, Helvetica, sans-serif;" line-height="24px" align="center" font-size="18px" color="#000" padding="20px 10px 0px" font-weight="400">
+          <b>Equipo Open English </b>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Sec1 -->
+
+
+    <!--Fin del Contenido-->
+
+    <!--Footer-->
+    <mj-section padding="0" background-color="#f5f5f5">
+      <mj-column width="400px" padding="10px 0 10px">
+        <mj-text padding="25px 10px 0" font-family="Arial, Helvetica, sans-serif;" font-size="16px" line-height="22px" align="center">
+          Conéctate con Open English
+        </mj-text>
+        <mj-text font-family="Arial, Helvetica, sans-serif;" font-size="16px" line-height="26px" align="center" color="#000000" padding="10px 10px 0px"> 📞
+          <a href="%%=RedirectTo(@callURL)=%%" target="_blank" style="font-family: 'Muli',Arial, Helvetica, sans-serif; color: #000000; text-decoration: none; font-size: 14px;">%%=v(@phoneNumber)=%%</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" background-color="#f5f5f5">
+      <mj-column width="450px" padding="0">
+        <mj-table width="200px" align="center" font-family="Arial, Helvetica, sans-serif;" padding="10px" line-height="100%">
+          <tr>
+            <td valign="top" width="32" style="text-align: center; padding: 0 2px;">
+              <a href="https://www.facebook.com/openenglish" target="_blank"><img src="http://image.communications.openenglish.com.br/lib/fe9513727767037f76/m/1/e852d640-1886-4589-ad55-3ac968448f8e.png" alt="Ir a facebook" padding="0" width="32" style="width:32px;" /></a>
+            </td>
+            <td valign="top" width="32" style="text-align: center; padding: 0 2px;">
+              <a href="https://twitter.com/OpenEnglish" target="_blank"><img src="http://image.communications.openenglish.com.br/lib/fe9513727767037f76/m/1/6a5bbd33-a2bd-4468-aaee-4e24622c3b95.png" alt="Ir a twitter" padding="0" width="32" style="width:32px;" /></a>
+            </td>
+            <td valign="top" width="32" style="text-align: center; padding: 0 2px;">
+              <a href="https://www.instagram.com/openenglish/" target="_blank"><img src="http://image.communications.openenglish.com.br/lib/fe9513727767037f76/m/1/15667d52-da30-46a2-94ee-ef751c9cb9bd.png" alt="Ir a instagram" padding="0" width="32" style="width:32px;" /></a>
+            </td>
+            <td valign="top" width="32" style="text-align: center; padding: 0 2px;">
+              <a href="https://www.youtube.com/user/openenglishtv" target="_blank"><img src="http://image.communications.openenglish.com.br/lib/fe9513727767037f76/m/1/d9b52d91-940f-4f53-ae19-9584f0e6ca8b.png" alt="Ir a youtube" padding="0" width="32" style="width:32px;" /></a>
+            </td>
+            <td valign="top" width="32" style="text-align: center; padding: 0 2px;">
+              <a href="https://www.linkedin.com/company/open-english" target="_blank"><img src="http://image.communications.openenglish.com.br/lib/fe9513727767037f76/m/1/8db60ff2-1a3a-46e7-b071-4e24275fcf43.png" alt="Ir a Linkedin" padding="0" width="32" style="width:32px;" /></a>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <!--Fin Redes Sociales-->
+
+    <!--Footer-->
+    <mj-section padding="20px 0 20px" background-color="#f5f5f5">
+      <mj-column>
+        <mj-text align="center" padding="5px 10px 10px" font-family="'Muli',Helvetica,Arial,sans-serif" font-size="12px" line-height="12px" font-weight="bold" padding="10px 2px">
+          <a href="https://blog.openenglish.com/" style="text-decoration:underline;color:#000000" target="_blank">
+            Blog
+          </a> |
+          <a href="https://www.openenglish.com/terminos-de-servicio/" style="text-decoration:underline;color:#000000" target="_blank">
+            Términos de Servicio
+          </a> |
+          <a href="https://www.openenglish.com/politicas-de-privacidad/" style="text-decoration:underline;color:#000000" target="_blank">Política de Privacidad.</a>
+        </mj-text>
+
+
+        <mj-text align="center" padding="5px 10px" font-family="'Muli',Helvetica,Arial,sans-serif" font-size="11px" line-height="18px">
+          %%member_addr%%, %%member_city%% %%member_state%% %%member_postalcode%% | %%member_busname%% Copyright ©%%xtyear%%
+        </mj-text>
+
+
+        <mj-text align="center" padding="5px 10px" font-family="'Muli',Helvetica,Arial,sans-serif" font-size="11px" line-height="18px">
+          Este es un mensaje automático enviado a %%emailaddr%%. Si deseas contactarnos, envía un mensaje a <a href="mailto:info@openenglish.com" style="color:#000000">info@openenglish.com</a> ya que esta dirección de correo electrónico no está habilitada para recibir respuestas.
+        </mj-text>
+
+        <mj-text align="center" padding="5px 10px" font-family="'Muli',Helvetica,Arial,sans-serif" font-size="11px" line-height="18px">
+          Si deseas eliminar tu dirección de correo de nuestra lista de envíos, haz <a href="%%profile_center_url%%" style="text-decoration:underline;color:#000000" font-weight="bold">clic aquí</a>
+        </mj-text>
+
+        <mj-text align="center" padding="5px 10px" font-family="'Muli',Helvetica,Arial,sans-serif" font-size="11px" line-height="18px">
+          No puedes ver la imagen? <a href="%%view_email_url%%" style="text-decoration:underline;color:#000000" font-weight="bold">M&iacute;rala en tu navegador</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,17 @@
+<!-- Banner -->
+<mj-section padding="0">
+    <mj-column width="161px" padding="10px 0">
+        <mj-image src="https://image.communications.openenglish.com/lib/fe9113727760037c72/m/4/d5edef94-da9d-4fe1-8cf9-17d11f0562e7.png" alt="Da el primer paso" width="161px" padding="0"/>     
+    </mj-column>
+    <mj-column width="375px" padding="20px">
+        <mj-text padding="0px 10px" font-family="Arial, Helvetica, sans-serif;" font-size="18px" line-height="23px" align="left" color="#0078FF" font-weight="400">
+            Da el primer paso,
+        </mj-text>
+        <mj-text padding="0px 10px" font-family="Arial, Helvetica, sans-serif;" font-size="16px" line-height="21px" align="left" color="#000000" font-weight="400">
+            inscríbete y mejora tu nivel de inglés en una plataforma disponible las 24 horas del día con clases en vivo ilimitadas y profesores nativos. 
+        </mj-text>
+        <mj-button align="left" background-color="#FF6600" border-radius="20px" padding="15px 0px" font-size="16px" font-family=" Arial, Helvetica, sans-serif;" line-height="120%" href="https://www.openenglish.com/comenzar/" target="_blank" css-class="CtaN1"><b>¡Quiero comenzar!</b>
+        </mj-button>
+    </mj-column>
+</mj-section>
+<!-- End Banner -->

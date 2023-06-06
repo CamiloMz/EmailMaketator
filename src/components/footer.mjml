@@ -1,0 +1,56 @@
+<!--Pre Footer-->
+<mj-section padding="0" background-color="#f4f4f4">
+  <mj-column width="400px" padding="10px 0 10px">
+    <mj-text padding="5px 10px 0" font-family="Arial, Helvetica, sans-serif;" font-size="16px" line-height="22px" align="center">
+      Conéctate con Open English
+    </mj-text>
+  </mj-column>
+</mj-section>
+<!--End Pre Footer-->
+
+<!--Redes Sociales-->
+<mj-section padding="0" background-color="#f5f5f5">
+  <mj-group>
+    <mj-column width="40px" padding="0">
+      <mj-image  src="https://image.communications.openenglish.com.br/lib/fe9513727767037f76/m/1/e852d640-1886-4589-ad55-3ac968448f8e.png" alt="Ir a facebook" padding="0" width="32pc" href="https://www.facebook.com/openenglish" target="_blank" css-class="fb-link"/>
+    </mj-column>
+    <mj-column width="40px" padding="0">
+      <mj-image  src="https://image.communications.openenglish.com.br/lib/fe9513727767037f76/m/1/6a5bbd33-a2bd-4468-aaee-4e24622c3b95.png" alt="Ir a twitter" padding="0" width="32pc" href="https://twitter.com/OpenEnglish" target="_blank" css-class="tw-link"/>
+    </mj-column>
+    <mj-column width="40px" padding="0">
+      <mj-image  src="https://image.communications.openenglish.com.br/lib/fe9513727767037f76/m/1/15667d52-da30-46a2-94ee-ef751c9cb9bd.png" alt="Ir a instagram" padding="0" width="32pc" href="https://www.instagram.com/openenglish/" target="_blank" css-class="it-link"/>
+    </mj-column>
+    <mj-column width="40px" padding="0">
+      <mj-image  src="https://image.communications.openenglish.com.br/lib/fe9513727767037f76/m/1/d9b52d91-940f-4f53-ae19-9584f0e6ca8b.png" alt="Ir a youtube" padding="0" width="32pc" href="https://www.youtube.com/user/openenglishtv" target="_blank" css-class="yt-link"/>
+    </mj-column>
+    <mj-column width="40px" padding="0">
+      <mj-image  src="https://image.communications.openenglish.com.br/lib/fe9513727767037f76/m/1/8db60ff2-1a3a-46e7-b071-4e24275fcf43.png" alt="Ir a Linkedin" padding="0" width="32pc" href="https://www.linkedin.com/company/open-english" target="_blank" css-class="ln-link"/>
+    </mj-column>
+  </mj-group>  
+</mj-section>
+<!--End Redes Sociales-->
+
+<!--Footer-->
+<mj-section padding="10px 0 20px" background-color="#F5F5F5">
+  <mj-column>
+    <mj-text align="center" padding="5px 10px 10px" font-family="'Muli',Helvetica,Arial,sans-serif" font-size="12px" line-height="12px" font-weight="bold" padding="10px 2px" css-class="legals">
+      <a href="https://blog.openenglish.com/" style="text-decoration:underline;color:#000000" target="_blank">
+        Blog
+      </a> |
+      <a href="https://www.openenglish.com/es-ES/terminos-y-condiciones/" style="text-decoration:underline;color:#000000" target="_blank">
+        Términos de Servicio
+      </a> |
+      <a href="https://www.openenglish.com/es-ES/politica-de-privacidad/" style="text-decoration:underline;color:#000000" target="_blank">Política de Privacidad.</a>
+    </mj-text>
+    <mj-text align="center" font-family="Arial, Helvetica, sans-serif" color="#000000" font-size="10px" line-height="18px" padding="5px 10px">
+          %%Member_addr%%, %%Member_city%% %%Member_state%% %%Member_postalcode%% %%Member_Country%% | %%Member_busname%% Copyright ©%%xtyear%%
+        </mj-text>
+    <mj-text align="center" padding="5px 10px" font-family="'Muli',Helvetica,Arial,sans-serif" font-size="11px" line-height="18px">
+      255 Giralda Ave, Suite 500, Coral Gables FL 33134 | Open Education, LLC Copyright ©2020
+    </mj-text>
+    <mj-text align="center" padding="5px 10px" font-family="'Muli',Helvetica,Arial,sans-serif" font-size="11px" line-height="18px">
+      Si deseas contactarnos, envía un mensaje a <a href="mailto:info@openenglish.com" style="color:#000000">info@openenglish.com</a> ya que esta dirección de correo electrónico no está habilitada para recibir respuestas.
+    </mj-text>
+  </mj-column>
+</mj-section>
+<!--End Footer-->

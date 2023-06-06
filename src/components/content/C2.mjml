@@ -1,0 +1,32 @@
+<!-- S1 -->
+<mj-section padding="30px 10px 10px">
+    <mj-column width="492px" border="1px solid #EF8B3F" css-class="rounded">
+        <mj-text padding="10px 20px 5px" font-family="Arial, Helvetica, sans-serif;" font-size="24px" line-height="31px" align="left" color="#EF8B3F" font-weight="400">
+            C2
+        </mj-text>
+
+        <mj-text padding="5px 20px 15px" font-family="Arial, Helvetica, sans-serif;" font-size="16px" line-height="21px" align="left" color="#000000" font-weight="400">
+            ¡Guau! ¡Eres como un hablante nativo de inglés! Esto significa que puedes leer y comprender el inglés hablado sin dificultad y comprendes incluso las estructuras más complejas del idioma. Difícilmente te confundes y puedes entender matices sutiles en conversaciones y textos.
+
+            <br><br>
+
+            <b>Importante:</b> actualmente, nuestra plataforma no incluye lecciones dirigidas específicamente al nivel C2. Sin embargo, dominar el inglés solo es posible gracias a la práctica constante. ¡Por eso, creemos que nuestra plataforma te sigue siendo útil! Aprovecha para practicar mucha conversación en las clases en vivo y también 
+            repasar lo que hayas olvidado.
+        </mj-text>
+    </mj-column>
+</mj-section>
+<!-- End S1 -->
+
+<!-- S2 -->
+<mj-section padding="10px">
+    <mj-column width="536px" padding="10px 0">
+        <mj-text padding="5px 10px" font-family="Arial, Helvetica, sans-serif;" font-size="16px" line-height="21px" align="left" color="#000000" font-weight="400">
+            Según tus respuestas, el nivel recomendado para que comiences tus estudios es <span style="color: #0078FF; font-weight: 700;">C2 - Avanzado.</span>
+        </mj-text>
+
+        <mj-text padding="5px 10px" font-family="Arial, Helvetica, sans-serif;" font-size="16px" line-height="21px" align="left" color="#000000" font-weight="400">
+            La prueba de nivel de inglés de Open English se basa en el MCER (Marco Común Europeo de Referencia) y es la mejor manera para que empieces tu curso en el punto de partida correcto.
+        </mj-text>
+    </mj-column>
+</mj-section>
+<!-- End S2 -->

@@ -1,0 +1,48 @@
+<mj-head>
+    <mj-include path="./htmlAtributtes.mjml">
+    <mj-title></mj-title>
+    <mj-font name="Muli" href="https://fonts.googleapis.com/css?family=Muli:400,700,900&display=swap" />
+    <mj-attributes>
+        <mj-all font-family="Arial, Helvetica, sans-serif" />
+        <mj-text align="left" />
+        <mj-section background-color="#FFFFFF" />
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width:480px) {
+        .padding__mobile {
+          padding: 25px 10px 0px !important;
+        }
+
+        .logo__mobile {
+          padding: 0px 10px !important;
+        }
+
+        .phone__number {
+          padding: 10px !important;
+        }
+
+        .phone__number table tbody tr td a {
+          font-size: 12px !important;
+          padding: 10px 15px !important;
+        }
+
+        .table__mobile {
+          padding-left: 15px !important;
+        }
+
+        .border-none table {
+          border: none !important;
+        }
+
+        .image-left {}
+
+      }
+
+      @media only screen and (max-width:330px) {
+        .phone__number table tbody tr td a {
+          font-size: 10px !important;
+          padding: 7px 10px !important;
+        }
+      }
+    </mj-style>
+</mj-head>

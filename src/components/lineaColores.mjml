@@ -1,0 +1,10 @@
+<!--Header-->
+<mj-section padding-top="10px" padding="0px" background-color="transparent">
+  <mj-column padding="0px">
+    <mj-text align="right" font-family="Helvetica,Arial,sans-serif" font-size="10px" line-height="12px" padding="15px 10px">
+      No puedes ver la imagen? <a href="%%view_email_url%%" style="text-decoration:underline;color:#000000" font-weight="bold">M&iacute;rala en tu navegador</a>
+    </mj-text>
+    <mj-image padding="0px" src="http://image.communications.openenglish.com/lib/fe9113727760037c72/m/1/openpromesa-email-es_02_copy.jpg" alt="Elemento decorativo divisor" width="600px" />
+  </mj-column>
+</mj-section>
+<!--End Header-->

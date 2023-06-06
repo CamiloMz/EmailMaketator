@@ -1,0 +1,9 @@
+<!--Logo-->
+<mj-section padding="0px 0" background-color="#FFFFFF">
+  <mj-group>
+    <mj-column  vertical-align="middle">
+      <mj-image src="https://image.communications.openenglish.com/lib/fe9113727760037c72/m/4/712f7ddd-889c-4c88-8bda-7ffbb69e0d9e.png" width="162px" alt="Logotipo Open English" href="https://www.openenglish.com" target="_blank" align="left" padding="20px 0px 20px 30px" css-class="logo__mobile"/>
+    </mj-column>
+  </mj-group>
+</mj-section>
+<!--Fin Logo-->

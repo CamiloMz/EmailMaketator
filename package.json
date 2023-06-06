@@ -1,0 +1,25 @@
+{
+  "name": "email-maketator",
+  "version": "1.0.0",
+  "description": "Email maketator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Email",
+    "Develop",
+    "MJML",
+    "JS"
+  ],
+  "author": "Camilo Torres",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "D": "^1.0.0",
+    "mjml": "^4.12.0"
+  },
+  "devDependencies": {
+    "pretty": "^2.0.0"
+  }
+}

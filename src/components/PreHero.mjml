@@ -1,0 +1,11 @@
+<mj-section padding="20px 0 0 0" background-color="#FFFFFF">
+    <mj-column padding="0px 20px">
+        <mj-text font-family="Arial, Helvetica, sans-serif;" line-height="41px" align="left" font-size="32px" color="#0078FF" padding="0px 10px 0px" font-weight="400">
+            ¡{!Lead.FirstName}, gracias por hacer la prueba de nivel de inglés Open English! 
+        </mj-text>
+
+        <mj-text font-family="Arial, Helvetica, sans-serif;" line-height="31px" align="left" font-size="24px" color="#FF6600" padding="0px 10px 0px" font-weight="400">
+            Este es tu resultado:
+        </mj-text>
+    </mj-column>
+</mj-section>
